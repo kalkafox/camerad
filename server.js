@@ -2,10 +2,10 @@ var plucker = require('image-plucker'),spawn = require('child_process').spawn,
     fs = require('fs'), butter = [],
     config = {
         auth: {
-            user:"guest",
-            pass:"Guest12"
+            user:"user",
+            pass:"passwd"
         },
-        host:"10.208.0.16",
+        host:"localhost",
         port:88
     };
 function paulaDeen(id){
